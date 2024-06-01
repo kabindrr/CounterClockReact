@@ -6,8 +6,8 @@ export const UserProfile = () => {
           <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="" />
         </div>
         <div className="info">
-          <h1>Kabindra Ranabhat</h1>
-          <p>
+          <h1 className="text-danger">Kabindra Ranabhat</h1>
+          <p className="text-success">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est magnam
             at, dolorem architecto fugiat quisquam sint officia? Fuga,
             asperiores. Dignissimos soluta eligendi iste? Distinctio obcaecati
