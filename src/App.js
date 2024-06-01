@@ -6,10 +6,7 @@ import { UserProfile } from "./component/UserComponent";
 function App() {
   return (
     <>
-      <div
-        className="user-page"
-        style={{ background: "black", color: "wheat" }}
-      >
+      <div className="user-page" style={{ color: "wheat" }}>
         <UserProfile />
       </div>
     </>

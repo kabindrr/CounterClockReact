@@ -3,7 +3,12 @@ export const UserProfile = () => {
     <div>
       <div className="card">
         <div className="img">
-          <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="" />
+          <img
+            src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxpbmtlZGluJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+            alt=""
+            width={"150px"}
+            height={"150px"}
+          />
         </div>
         <div className="info">
           <h1 className="text-danger">Kabindra Ranabhat</h1>
@@ -15,6 +20,7 @@ export const UserProfile = () => {
             similique aut, dignissimos asperiores non incidunt consequuntur nemo
             at. Cum ipsa iure non qui officiis, fugiat ea?
           </p>
+          <img src="./a.jpg" alt="" width={"100px"} height={"100px"} />
         </div>
       </div>
     </div>
