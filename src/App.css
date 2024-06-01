@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.user-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 600px;
+  height: 400px;
+  box-shadow: 0 0 15px grey;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  margin: auto;
+}
+
+img {
+  border-radius: 50%;
+}
